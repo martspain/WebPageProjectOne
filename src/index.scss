@@ -1,0 +1,139 @@
+@font-face {
+    font-family: unreal;
+    src: url(./assets/fonts/EurostileLTStd-BoldEx2.otf);
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none;}
+	.navbar .nav-item:hover .dropdown-menu{ display: block; background-color: #2a2a2a;}
+	.navbar .nav-item .dropdown-menu{ margin-top:0;}
+}	
+
+.titulo{
+    font-family: unreal;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    color: #e7e7e7;
+}
+
+.titulo:hover{
+    color: #e7e7e7;
+}
+
+.subtitulo{
+    color:#ccc;
+    font-family: Helvetica;
+    font-size: .75em;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: .3em;
+}
+
+.subtitulo:hover{
+    color: #e7e7e7;
+}
+
+.item-hover-dropdown{
+    color:#ccc !important;
+    font-size: .75em;
+    margin-bottom: .75em;
+}
+
+.item-hover-dropdown:hover{
+    color:#e7e7e7 !important;
+    background-color: transparent !important;
+}
+
+.navbar-custom{
+    background-color: #2a2a2a;
+}
+
+.epic-logo{
+    background-size: 30px auto;
+    padding-left: 20px;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.search-icon{
+    margin-top: .2em;
+    margin-left: 14em;
+}
+
+.global-icon{
+    margin-top: .1em;
+    margin-left: 2em;
+}
+
+.login-icon{
+    margin-top: .3em;
+    margin-left: 2em;
+}
+
+.download-button{
+    margin-right: 1em !important;
+    background-color: #0aaff1;
+    color: #e7e7e7;
+    height: fit-content;
+}
+
+.bg-img{
+    background-image: url('./assets/images/background.jpg');
+    
+    height: calc(100vh - 0px);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.unreal-icon{
+    margin-left: calc(50% - 100px);
+    margin-top: 3em;
+}
+
+.title-text{
+    color: white;
+    font-family: "Open Sans";
+    font-size: 2em;
+}
+
+.subtitle-text{
+    color: white;
+    font-family: "Open Sans";
+    font-size: 1.1em;
+}
+
+.para-text{
+    color:white;
+    font-family: "Open Sans";
+    font-size: 1.15em;
+}
+
+.text-contain{
+    width: 40em !important;
+    margin-left: 10em !important;
+    margin-top: 3em;
+}
+
+.custom-button{
+    background-color: #0aaff1;
+    color: white;
+    height: 3em;
+    width: 15em;
+    margin-left: .5em;
+}
+
+.custom-button-outline{
+    background-color: transparent;
+    border-color: #0aaff1;
+    color: white;
+    height: 3em;
+    width: 15em;
+}
+
+.custom-button-outline:hover{
+    background-color: #0aaff1;
+}
